@@ -1,0 +1,234 @@
+
+img{
+    width: 100%;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    position: relative;
+    color: white !important;
+    font-weight: 500;
+}
+#txt-bl{
+    color: black !important;
+    font-weight: 400;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    transition-property: width;
+    transition-duration: .5s;
+}
+.nav-link:hover::after{
+    width: 80%;
+}
+#active{
+    position: relative;
+}
+#active::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    width: 80%;
+    height: 2px;
+    background-color: white;
+}
+.btn-up{
+    right: 15px;
+    bottom: 15px;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+}
+progress{
+    width: 100%;
+    height: 12px;
+    background: crimson;
+}
+progress {
+    color: #0078ff;
+  }
+progress::-webkit-progress-value {
+    background: #0078ff;
+  }
+progress::-webkit-progress-bar {
+    background: rgb(205,225,248);
+  }
+progress::-moz-progress-bar {
+    background: #0078ff;
+  }
+.underlined{
+    position: relative;
+    width: fit-content;
+    line-height: 1.5;
+}
+.underlined::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background-color: #0078ff;
+
+}
+.underline
+{
+    width: 56px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+.drop1:hover .menu1 {
+    display: block;
+    margin-top: 0; 
+ }
+ .drop2:hover .menu2 {
+    display: block;
+    margin-top: 0;
+}
+
+.home .fix-bg-img{
+    background-image: url(img/images01.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.transparent-black{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(00, 00, 00, .5);
+}
+h1{
+    font-size: 70px;
+}
+.services-page .p-icon-box{
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: all .5s ;
+}
+.p-icon{
+    font-size: 40px;
+    transition: all .5s;
+}
+.s-service:hover .p-icon{
+    color: white;
+    }
+.s-service:hover .p-icon-box{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px rgba(00, 120, 255, .2);
+    }
+/* .s-service:hover .services-page .p-icon-box{
+        background-color: #0078ff;
+        
+} */
+.counters-page .fix-bg-img{
+    background-image: url(img/images03.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.transparent-blue{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 120, 255, .7);
+}
+.counters-page .p-icon-box{
+    height: 70px;
+    width: 70px;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, .8);
+    /* transition: all .5s ; */
+}
+.rem{
+    font-size: .8rem;
+}
+.s-project img{
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+.img-box:hover img{
+    transform: scale(1.25) ;
+}
+.slider-page .fix-bg-img, .form-page .fix-bg-img {
+    background-image: url(img/images10.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.transparent-blue{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 120, 255, .7);
+}
+.img-box-p{
+    width: 150px;
+}
+
+.carousel-indicators {
+    padding: 0;
+  }
+.carousel-indicators button{
+    border-radius: 50%;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+.img-box-blog{
+    position: relative;;
+}
+.img-box-blog::after{
+    content: "TRAVEL";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 7px;
+    background-color: #0078ff;
+    color: white;
+    border-radius: 5px;
+}
+.blog-item a{
+    color: black;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.blog-item a:hover{
+    color: #0078ff;
+}
+.sm-img{
+    width: 32px;
+}
+
+.contact-icon-box{
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all .5s ;
+}
+.contact-icon-box{
+    color: black;
+}
+.contact-icon-box:hover{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 3px rgba(00, 120, 255, .2);
+    color: white;
+}
+.copyright{
+    background-color: rgba(0, 98, 211, 1);
+    box-shadow: #0078ff;
+}
+
