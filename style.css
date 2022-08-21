@@ -95,8 +95,20 @@ progress::-moz-progress-bar {
     margin-top: 0; 
  }
  .drop2:hover .menu2 {
-    display: block;
+    display: inline-block;
     margin-top: 0;
+}
+
+.drop2heading {
+width:100%;
+padding:.25rem 1rem;
+font-weight:400;
+color:#212529;
+text-align:inherit;
+text-decoration:none;
+white-space:nowrap;
+background-color:transparent;
+border:0
 }
 
 .home .fix-bg-img{
